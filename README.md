@@ -12,17 +12,17 @@ This code continues in a loop, but the messages are always selected in a random 
 
 ## Hardware:
 - ESP32 TTGO T-display
-![alt text](./esp32.jpeg)
+![alt text](./pictures/esp32.jpeg)
 
 - DC Power Supply
-![alt text](./IMG_7186.png)
+![alt text](./pictures/IMG_7186.png)
 
 
 - Platform with type C connectors that is conneted to the DC Power Supply
-![alt text](./IMG_7179.png)
+![alt text](./pictures/IMG_7179.png)
 
 ## Code
-The code is located inside generative_art.ino. To transfer it to the ESP32 I used a type C cable connected from the notebook to the device. 
+The code for this project is located inside generative_art.ino. To transfer it to the ESP32 I used a type C cable connected from the notebook to the device, and the Arduino IDE. 
 
 
 
