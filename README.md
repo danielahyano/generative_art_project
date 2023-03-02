@@ -20,14 +20,14 @@ This code continues in a loop, but the messages are always selected in a random 
 ![alt text](./pictures/IMG_7186.png)
 
 
-- Platform with type C connectors that is conneted to the DC Power Supply
+- Platform with type C connectors that is connected to the DC Power Supply
 ![alt text](./pictures/IMG_7179.png)
 
 ## Set up 
 
 The Arduino IDE can be downloaded in (https://www.arduino.cc/en/software). 
 
-After downloading the Arduino IDE, you can follow the instruction in https://www.youtube.com/watch?v=adLUgmCJKnM (a video made by our professor) to do the setup. 
+After downloading the Arduino IDE, you can follow the instructions in https://www.youtube.com/watch?v=adLUgmCJKnM (a video made by our professor) to do the setup. 
 
 If you are on a MacBook, you may need to install: https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/issues/139#issuecomment-90439071. 
 
