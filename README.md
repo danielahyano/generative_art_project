@@ -23,9 +23,15 @@ This code continues in a loop, but the messages are always selected in a random 
 - Platform with type C connectors that is conneted to the DC Power Supply
 ![alt text](./pictures/IMG_7179.png)
 
-## Code
-The code for this project is located inside generative_art.ino. To transfer it to the ESP32 I used a type C cable connected from the notebook to the device, and the Arduino IDE. 
+## Set up 
 
+The Arduino IDE can be downloaded in (https://www.arduino.cc/en/software). 
+
+After downloading the Arduino IDE, you can follow the instruction in https://www.youtube.com/watch?v=adLUgmCJKnM (a video made by our professor) to do the setup. 
+
+If you are on a MacBook, you may need to install: https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/issues/139#issuecomment-90439071. 
+
+After this, you can get the code from generative_art.ino and transfer it to the ESP32 using a type C cable connected from the notebook to the device (pressing the '->' in the top left of the screen. 
 
 
 
