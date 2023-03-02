@@ -21,6 +21,8 @@ This code continues in a loop, but the messages are always selected in a random 
 - Platform with type C connectors that is conneted to the DC Power Supply
 ![alt text](./IMG_7179.png)
 
+## Code
+The code is located inside generative_art.ino. To transfer it to the ESP32 I used a type C cable connected from the notebook to the device. 
 
 
 
