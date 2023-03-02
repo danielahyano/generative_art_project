@@ -14,6 +14,12 @@ This code continues in a loop, but the messages are always selected in a random 
 - ESP32 TTGO T-display
 ![alt text](./esp32.jpeg)
 
+- DC Power Supply
+![alt text](./IMG_7186.png)
+
+
+- Platform with type C connectors that is conneted to the DC Power Supply
+![alt text](./IMG_7179.png)
 
 
 
