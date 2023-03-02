@@ -1,14 +1,7 @@
 /*
- Display all the fast rendering fonts.
-
- This sketch uses the GLCD (font 1) and fonts 2, 4, 6, 7, 8
- 
- Make sure all the display driver and pin connections are correct by
- editing the User_Setup.h file in the TFT_eSPI library folder.
-
- #########################################################################
- ###### DON'T FORGET TO UPDATE THE User_Setup.h FILE IN THE LIBRARY ######
- #########################################################################
+ Author: Daniela Hikari Yano
+ Generative Art Project
+ February/2023
 */
 
 // New background colour
@@ -34,19 +27,31 @@ void loop() {
   int index;  
   int y_value;
   int x_value;
+
+  // List of x positions
   std::vector<int> listx{0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180};
+
+  //List of y positions
   std::vector<int> listy{0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110};
+
   int xpos = 0;
+
+  // List with messages and notifications to be displayed
   const char* greetings[9] = { "New message", "LOL", "Hey!", "Sent a cat video", "What's up?", "New follower request", "Want to hang out?", "Call missed", "Let it goooo"};
   
+  // Set the text and screen color
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.fillScreen(TFT_BLACK);
 
+  // Display first message
   delay(WAIT);
   tft.drawString("I am lonely.",70, 50, 2);
   delay(WAIT);
 
+  // Change the color to blue
   tft.setTextColor(TFT_BLUE, TFT_BLACK);
+
+  // Loop, in each inner loop a new position and message are selected
   for(int j=0; j < 10; j++){
     for(int i=0; i < 10; i++)
     {
