@@ -1,5 +1,7 @@
 # Generative Art Project
-author: Daniela Hikari Yano
+author: Daniela Hikari Yano 
+
+creative details at: https://danielahyano.github.io/generative_art.html
 
 ## Overview:
 This github directory cointains the source code used for the Generative Art Installation. 
